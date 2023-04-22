@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>index</title>
+		<title>User_Home_Page</title>
 		<meta name="viewport" content="wid=device-width, initial-scale=1" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
@@ -29,37 +29,24 @@
 					<div class="collapse navbar-collapse" id="navbarsExample05">
 						<!-- boostrap 5 left margin's short is ms,right margin's short is me -->
 						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-<<<<<<< Updated upstream
-=======
-							
-							<li class="nav-item active" id="login">
+							<li class="nav-item">
 								<a class="nav-link" aria-current="page" href="Index.html">Home</a>
 							</li>
->>>>>>> Stashed changes
 							<li class="nav-item">
 								<a class="nav-link" aria-current="page" href="Login.html">Login</a>
 							</li>
-							<li class="nav-item" id="createAccount">
+							<li class="nav-item">
 								<a class="nav-link" href="Create_Account.html">Create Account</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item active">
 								<a class="nav-link" href="User_Page_Education.html">Trojan Stock Education</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="User_Page_PurchaseStock.html">Buy/Sell Stock</a>
 							</li>
 							
-<<<<<<< Updated upstream
-							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="Create_Account.html">Create Account</a>
-							</li>
-		
-							<li class="nav-item">
-								<a class="nav-link" href="User_Page_Education.html">Trojan Stock Education</a>
-=======
 							<li class="nav-item" id = "logout">
 								<a class="nav-link" aria-current="page" href="" onclick="logout();" >Logout</a>
->>>>>>> Stashed changes
 							</li>
 						</ul>
 
@@ -69,37 +56,65 @@
 
 
 			<!-- My Stock Section -->
-<<<<<<< Updated upstream
-			<section class="my_stock my-5" >
-				<div class="mx-auto" style="position: relative; top: 200px; bottom: 200px; left: 350px;">
-					<div class="row featurette">
-=======
-			<section class="my_stock" >
-				<div class="mx-auto" style="position: relative; top: 200px; bottom: 200px;">
-					<div class="row featurette" style="margin-left:300px">
->>>>>>> Stashed changes
-						<div class="col-md-4">
-						  <h2 class="featurette-heading">Welcome to Trojan Stock!<span class="text-muted"></span></h2>
-						  <p class="lead">In this website, you will be able to buy and sell stocks in a simulated environment. We even have great education resources in order for first-time investors to learn! If you are ready to get started, please make an account following the buttons above.</p>
+			<section class="my_stock">
+				<div class="tradeCon2">
+					<div class="card mb-3" style="max-width: 1000px; top: 2rem; left: 20rem;">
+						<div class="row g-0">
+						  <div class="col-md-4">
+							<a href="https://www.nerdwallet.com/article/investing/stock-trading-how-to-begin"><img src="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2020/07/GettyImages-482534949-2400x1440.jpg" class="card-img-top" alt="..."></a>
+						  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">How Stocks Work</h5>
+							  <p class="card-text">This NerdWallet article provides guidance for beginners on how to start trading stocks. It covers essential steps such as opening a brokerage account, researching stocks, and creating a diversified portfolio.</p>
+							</div>
+						  </div>
 						</div>
-						<div class="col-md-5">
-						  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 400px; height: 400px;" src="https://content.fortune.com/wp-content/uploads/2019/10/GettyImages-1158402857.jpg" data-holder-rendered="true">
+					  </div>
+
+					  <div class="card mb-3" style="max-width: 1000px;top: 2rem;left: 20rem;">
+						<div class="row g-0">
+						  <div class="col-md-4">
+							<a href="https://finance.yahoo.com/most-active/"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Yahoo%21_Finance_logo_2021.png" class="card-img-top" alt="..."></a>
+						  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">Most Active Stocks</h5>
+							  <p class="card-text">The Yahoo Finance "Most Active" page displays real-time data on the stocks with the highest trading volumes. Users can sort and filter by different metrics, including price, volume, and market cap.</p>
+							</div>
+						  </div>
 						</div>
-					  </div>	
+					  </div>
+
+					  <div class="card mb-3" style="max-width: 1000px;top: 2rem; left: 20rem;">
+						<div class="row g-0">
+						  <div class="col-md-4">
+							<a href="https://www.nerdwallet.com/article/taxes/taxes-on-stocks#:~:text=Generally%2C%20any%20profit%20you%20make,stock%20are%20also%20usually%20taxable."> <img src="https://www.nerdwallet.com/assets/blog/wp-content/uploads/2017/01/best-tax-software-770x462.jpg" class="card-img-top" alt="..."></a>
+						  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">How Stock Taxes Work</h5>
+							  <p class="card-text">TThe NerdWallet article explains the tax implications of buying and selling stocks. Generally, profits are taxable, and capital gains on the sale of stocks are also usually taxed.</p>
+							</div>
+						  </div>
+						</div>
+					  </div>
+
+					  
+					  
 				</div>
-				<!-- <P style="position: fixed; top: 200px;">Trojan stock</P> -->
+				
 				
 			</section>
-
 			<!-- footer -->
 
-			<footer class="footer ">
+			<footer class="footer">
 				<div class="container">
 					<div class="row">
 						
 						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
 							<h2 class="footer-heading">Contact Us</h2>
-							<div class="block-23 mb-3">
+							<div class="block- mb-3">
 								<ul>
 									<li><span class="icon fa fa-map"></span><span class="text">Los Angeles, CA 90007</span></li>
 									
